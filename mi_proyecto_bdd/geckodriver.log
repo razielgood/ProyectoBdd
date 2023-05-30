@@ -1,0 +1,323 @@
+1685386998418	geckodriver	INFO	Listening on 127.0.0.1:48047
+1685386998994	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley6mYZg"
+1685387002753	Marionette	INFO	Marionette enabled
+1685387002780	Marionette	INFO	Listening on port 37661
+WebDriver BiDi listening on ws://localhost:42777
+Read port: 37661
+1685387003450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley6mYZg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42777/devtools/browser/82f4807d-cadb-4d76-beaf-eee28fa7a862
+JavaScript warning: https://www.adidas.es/6KJuDKLOsVwE/SHfmr6/RV3tLF/3NOzVLX9OcXuJO/AHckAWsB/XzQPaE/1xNHA, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/6KJuDKLOsVwE/SHfmr6/RV3tLF/3NOzVLX9OcXuJO/AHckAWsB/XzQPaE/1xNHA, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685387104347	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685387321715	Marionette	INFO	Stopped listening on port 37661
+console.warn: services.settings: Error retrieving the getLastModified timestamp from blocklists/addons-bloomfilters RemoteSettingsClient Message: Error: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() The application is shutting down
+console.error: services.settings: 
+  Message: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonTypesByProvider :: line 3508"  data: no]
+  Stack:
+    getAddonTypesByProvider@resource://gre/modules/AddonManager.jsm:3508:24
+@resource://gre/modules/Blocklist.jsm:94:30
+get@resource://gre/modules/XPCOMUtils.jsm:62:51
+_onUpdate@resource://gre/modules/Blocklist.jsm:1117:18
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+1685387470672	geckodriver	INFO	Listening on 127.0.0.1:54879
+1685387471325	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS0ku8B"
+1685387473481	Marionette	INFO	Marionette enabled
+1685387473495	Marionette	INFO	Listening on port 34077
+Read port: 34077
+WebDriver BiDi listening on ws://localhost:55353
+1685387473930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS0ku8B/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55353/devtools/browser/6a501d20-72fb-48ce-a64f-9fdecbeae5fb
+JavaScript warning: https://www.adidas.es/6KJuDKLOsVwE/SHfmr6/RV3tLF/3NOzVLX9OcXuJO/AHckAWsB/XzQPaE/1xNHA, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/6KJuDKLOsVwE/SHfmr6/RV3tLF/3NOzVLX9OcXuJO/AHckAWsB/XzQPaE/1xNHA, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685387516720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+console.error: services.settings: 
+  security-state/cert-revocations Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:237:26
+
+console.error: services.settings: 
+  security-state/intermediates Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:237:26
+
+console.error: services.settings: 
+  security-state/onecrl Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:237:26
+
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685388811402	Marionette	INFO	Stopped listening on port 34077
+1685389253704	geckodriver	INFO	Listening on 127.0.0.1:59371
+1685389254250	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2Nb07d"
+1685389256547	Marionette	INFO	Marionette enabled
+1685389256568	Marionette	INFO	Listening on port 34459
+WebDriver BiDi listening on ws://localhost:45509
+Read port: 34459
+1685389256995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2Nb07d/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45509/devtools/browser/ca33e304-594f-4711-b0c1-6a85b3713bb0
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+1685389294125	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685432870852	Marionette	INFO	Stopped listening on port 34459
+1685436888289	geckodriver	INFO	Listening on 127.0.0.1:59367
+1685436888832	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletumPWx"
+1685436892113	Marionette	INFO	Marionette enabled
+1685436892124	Marionette	INFO	Listening on port 46079
+WebDriver BiDi listening on ws://localhost:51491
+Read port: 46079
+1685436892568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletumPWx/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51491/devtools/browser/f6f8247c-4e50-450d-9e4d-3415dda7e1bd
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685436931148	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437700715	Marionette	INFO	Stopped listening on port 46079
+1685438667376	geckodriver	INFO	Listening on 127.0.0.1:41623
+1685438668043	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZgAPuq"
+1685438669825	Marionette	INFO	Marionette enabled
+1685438669839	Marionette	INFO	Listening on port 36475
+WebDriver BiDi listening on ws://localhost:37049
+Read port: 36475
+1685438670240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZgAPuq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:37049/devtools/browser/b557dab4-a860-4b7b-8c3a-16be1e7ec340
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685438703241	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1685438820218	geckodriver	INFO	Listening on 127.0.0.1:50313
+1685438821019	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNASIZ7"
+1685438827669	Marionette	INFO	Marionette enabled
+1685438827705	Marionette	INFO	Listening on port 40491
+Read port: 40491
+WebDriver BiDi listening on ws://localhost:39189
+1685438828797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNASIZ7/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39189/devtools/browser/585cb095-644c-4320-a771-959d26a4d50f
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685438938757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1685439170333	geckodriver	INFO	Listening on 127.0.0.1:57937
+1685439173812	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezSmXTD"
+1685439201240	Marionette	INFO	Marionette enabled
+1685439201331	Marionette	INFO	Listening on port 37259
+WebDriver BiDi listening on ws://localhost:54437
+Read port: 37259
+Read port: 37259
+1685439203945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezSmXTD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54437/devtools/browser/39e5d7ef-1b40-4ac8-abe6-5f775c57398e
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439399665	Marionette	INFO	Stopped listening on port 37259
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 379))
+1685439420604	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+console.log: "RemoteSettingsWorker error: Error: IndexedDB: Error accessing remote-settings IDB at version 3"
+[2023-05-30T09:37:06Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No existe el fichero o el directorio" })) }
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439899823	Marionette	INFO	Stopped listening on port 40491
+1685439911618	geckodriver	INFO	Listening on 127.0.0.1:44535
+1685439912240	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYfKcPr"
+1685439914681	Marionette	INFO	Marionette enabled
+1685439914698	Marionette	INFO	Listening on port 39171
+WebDriver BiDi listening on ws://localhost:55309
+Read port: 39171
+1685439915253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYfKcPr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55309/devtools/browser/206a1199-293a-4e3f-ba24-74340744dcdc
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+1685439963055	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685440347566	Marionette	INFO	Stopped listening on port 39171
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685440354247	Marionette	INFO	Stopped listening on port 36475
+1685446992346	geckodriver	INFO	Listening on 127.0.0.1:48235
+1685446992966	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50025" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQYbkpu"
+1685446995260	Marionette	INFO	Marionette enabled
+1685446995270	Marionette	INFO	Listening on port 33635
+WebDriver BiDi listening on ws://localhost:50025
+Read port: 33635
+1685446995666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQYbkpu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50025/devtools/browser/a658836f-3499-472a-8171-a9e1274e75dd
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685447024368	geckodriver	INFO	Listening on 127.0.0.1:36541
+1685447025234	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecNm0zP"
+1685447040420	Marionette	INFO	Marionette enabled
+1685447040606	Marionette	INFO	Listening on port 35523
+WebDriver BiDi listening on ws://localhost:47799
+Read port: 35523
+Read port: 35523
+Read port: 35523
+1685447044241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecNm0zP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47799/devtools/browser/95f3a93e-8556-4693-8d11-55f46b07efee
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685448317856	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1685471086509	geckodriver	INFO	Listening on 127.0.0.1:55007
+1685471087095	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileg1e9eU"
+1685471090565	Marionette	INFO	Marionette enabled
+1685471090578	Marionette	INFO	Listening on port 46463
+WebDriver BiDi listening on ws://localhost:60905
+Read port: 46463
+1685471091032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg1e9eU/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60905/devtools/browser/8fbc0229-6e8f-4afe-90eb-fd7b5a978b6e
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+1685471117364	geckodriver	INFO	Listening on 127.0.0.1:57781
+1685471117981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVqSemZ"
+1685471124461	Marionette	INFO	Marionette enabled
+1685471124542	Marionette	INFO	Listening on port 33463
+Read port: 33463
+WebDriver BiDi listening on ws://localhost:45293
+Read port: 33463
+Read port: 33463
+1685471127806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVqSemZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45293/devtools/browser/63dda855-97c8-4e44-9de6-86bc7d12e823
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1685479028877	geckodriver	INFO	Listening on 127.0.0.1:52959
+1685479029466	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2DjMuf"
+1685479032623	Marionette	INFO	Marionette enabled
+1685479032655	Marionette	INFO	Listening on port 33557
+Read port: 33557
+WebDriver BiDi listening on ws://localhost:59317
+1685479033162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2DjMuf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59317/devtools/browser/cd27040e-ff15-4b9d-ab46-dbc1c41ec000
+JavaScript warning: https://www.adidas.es/Vyprbm/u/v/4xAawHvRRA/ai5NSVi1Xi/Ay4KP0QVAw/PQprY3d/dBjY, line 1: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+JavaScript warning: https://www.adidas.es/glass/react/c03bca5/adidas/vendor.js, line 45: unreachable code after return statement
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+Exiting due to channel error.
